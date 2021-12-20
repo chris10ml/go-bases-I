@@ -19,10 +19,10 @@ type Circulo struct {
 
 func main() {
 	fmt.Println("Metodos")
-	//p1 := Persona{"Pablo", "Lopez", 27, "Calle 3"}
+	p1 := Persona{"Pablo", "Lopez", 27, "Calle 3"}
 	//fmt.Printf("\nP1: %+v, %T\n", p1, p1)
 	//Concatenar(p1)
-	//p1.MetodoConcatenar()
+	p1.MetodoConcatenar()
 
 	c1 := Circulo{
 		Radio: 3,
